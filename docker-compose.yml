@@ -42,7 +42,7 @@ services:
   box:
     image: busybox
     volumes:
-      - /box
+      - /box  
 
   mailcatcher:
     image: yappabe/mailcatcher
